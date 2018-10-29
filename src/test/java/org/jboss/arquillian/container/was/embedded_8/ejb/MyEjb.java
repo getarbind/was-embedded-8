@@ -29,6 +29,6 @@ public class MyEjb
 {
    public String getName() 
    {
-      return "aslak";
+      return "Hello Arq";
    }
 }

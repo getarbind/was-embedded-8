@@ -78,6 +78,10 @@
     </dependency>
 
     <dependency>
+		<groupId>org.jboss.arquillian.testenricher</groupId>
+		<artifactId>arquillian-testenricher-cdi</artifactId>
+	</dependency>
+    <dependency>
       <groupId>org.jboss.arquillian.testenricher</groupId>
       <artifactId>arquillian-testenricher-ejb</artifactId>
     </dependency>
@@ -99,6 +103,7 @@
       <artifactId>shrinkwrap-descriptors-impl-javaee</artifactId>
       <scope>runtime</scope>
     </dependency>
+
 
     <!-- com.ibm.websphere -->
 
