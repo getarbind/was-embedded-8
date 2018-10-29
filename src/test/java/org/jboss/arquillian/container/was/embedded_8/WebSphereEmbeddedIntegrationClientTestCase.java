@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
 /**
  * WebsphereIntegrationClientTestCase
  *
- * @author <a href="mailto:aslak@redhat.com">Aslak Knutsen</a>
+ * @author 
  * @version $Revision: $
  */
 @RunWith(Arquillian.class)
@@ -55,8 +55,8 @@ public class WebSphereEmbeddedIntegrationClientTestCase
             "Verify that the Bean has been injected",
             instanceVariable);
       
-      Assert.assertEquals("aslak", instanceVariable.getName());
-      Assert.assertEquals("aslak1", instanceVariable.getName());
+      Assert.assertEquals("Hello Arq", instanceVariable.getName());
+      Assert.assertEquals("Hello1", instanceVariable.getName());
    }
 
 }
